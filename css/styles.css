@@ -1,3 +1,29 @@
+:root{
+--blue: #5267DF;
+--red: #FA5959;
+--text-color: #242A45;
+--text-color-75: rgb(36, 42, 69, 0.75);
+--text-color-50: rgb(36, 42, 69, 0.5);
+}
+
+/* * FOTN FACE * */
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+  url('../fonts/Rubik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+  url('../fonts/Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /* ** GLOBAL STYLES ** */
 html
 {
@@ -22,11 +48,11 @@ body
   padding: 0;
   margin: 0;
   font-size: 16px;
-  line-height: 1.5;
-  font-family: Arial, sans-serif;
-  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-family: "Rubik", Arial, sans-serif;
+  letter-spacing: 0.15px;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color-75);
 }
 img
 {
@@ -34,7 +60,7 @@ img
   height: auto;
 }
 /* * * / AUTOFILL STYLES \ * * */
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
@@ -46,7 +72,9 @@ select:-webkit-autofill:focus {
   border-color: transparent;
   -webkit-text-fill-color: inherit;
   -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-}
+} */
+
+
 /* * * VISUALLY HIDDEN * * */
 .visually-hidden {
   position: absolute;
