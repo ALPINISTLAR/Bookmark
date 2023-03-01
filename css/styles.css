@@ -1,9 +1,9 @@
 :root{
---blue: #5267DF;
---red: #FA5959;
---text-color: #242A45;
---text-color-75: rgb(36, 42, 69, 0.75);
---text-color-50: rgb(36, 42, 69, 0.5);
+  --blue: #5267DF;
+  --red: #FA5959;
+  --text-color: #242A45;
+  --text-color-75: rgb(36, 42, 69, 0.75);
+  --text-color-50: rgb(36, 42, 69, 0.5);
 }
 
 /* * FOTN FACE * */
@@ -97,7 +97,56 @@ select:-webkit-autofill:focus {
   margin-right: auto;
   margin-left: auto;
 }
-
+/* * * * BUTTON * * * */
+.button{
+  display: inline-block;
+  padding: 8px 22px;
+  border: 2px solid transparent;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-align: center;
+  white-space: nowrap;
+}
+.button:active{
+  opacity: 0.6;
+}
+.button--site-header{
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.button--red{
+  background-color: var(--red);
+  color: #fff;
+}
+.button--red:hover{
+  background-color: #fff;
+  color: var(--red);
+  border-color: var(--red);
+}
+.button--blue{
+  background-color: var(--blue);
+  color: #fff;
+}
+.button--blue:hover{
+  background-color: #fff;
+  color: var(--blue);
+  border-color: var(--blue);
+}
+.button--grey{
+  background-color: #F7F7F7;
+  color: var(--text-color);
+}
+.button--grey{
+  background-color: #fff;
+  border-color: #5B6074;
+}
+.button--block{
+  display: block;
+}
 /* ** MAIN CONTENT ** */
 .main-content
 {
