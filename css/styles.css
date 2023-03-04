@@ -201,6 +201,37 @@ select:-webkit-autofill:focus {
 .sitenav-link:active{
   opacity: 0.6;
 }
+
+/* * * * SECTION * * * */
+.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  border: 3px solid black;
+}
+.section__info {
+  width: 100%;
+  max-width: 540px;
+  border: 3px solid gold;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.section__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.1;
+  color: var(--text-color);
+}
+.section__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  color: var(--text-color-50);
+}
 /* * * SITE HEADER * * */
 .site-header {
   padding-top: 48px;
