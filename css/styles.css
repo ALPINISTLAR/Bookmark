@@ -211,7 +211,6 @@ select:-webkit-autofill:focus {
 .section__info {
   width: 100%;
   max-width: 540px;
-  border: 3px solid gold;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -232,6 +231,85 @@ select:-webkit-autofill:focus {
   margin: 0;
   color: var(--text-color-50);
 }
+
+/* ** TABS ** */
+.tabs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.tabs__item {
+  width: 243px;
+  border-bottom: 1px solid rgba(73, 93, 207, 0.2);
+}
+.tabs__item--active .tabs__link{
+  color: var(--text-color);
+  border-color: var(--red);
+}
+.tabs__link {
+  display: block;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  color: var(--text-color-75);
+  padding-bottom: 27px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.tabs__link:hover{
+  color: var(--red);
+}
+.tabs__link:active{
+  opacity: 0.6;
+}
+/* +++ tab panels +++ */
+.tab__panels {
+  padding-top: 75px;
+  padding-bottom: 165px;
+  background-image: url(../img/blue-pill-bg.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 580px) 156px;
+}
+.tab__panel {
+  display: none;
+}
+.tab__panel--active{
+  display: block;
+}
+.feature-tab-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-tab-panel__img {
+  object-fit: contain;
+  margin-right: 30px;
+}
+.feature-tab-panel__info {
+  max-width: 445px;
+}
+.feature-tab-panel__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.1px;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.feature-tab-panel__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--text-color-50);
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
 /* * * SITE HEADER * * */
 .site-header {
   padding-top: 48px;
@@ -296,4 +374,11 @@ select:-webkit-autofill:focus {
   object-fit: contain;
   flex-shrink: 0;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* * * FEATURES * * */
+.features {
+}
+.features__section-info {
+  margin-bottom: 72px;
 }
