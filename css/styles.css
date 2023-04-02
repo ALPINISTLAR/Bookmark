@@ -267,17 +267,17 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 /* +++ tab panels +++ */
-.tab__panels {
+.tabpanels {
   padding-top: 75px;
   padding-bottom: 165px;
   background-image: url(../img/blue-pill-bg.svg);
   background-repeat: no-repeat;
   background-position: calc(50% - 580px) 156px;
 }
-.tab__panel {
+.tabpanels__item {
   display: none;
 }
-.tab__panel--active{
+.tabpanels__item--active{
   display: block;
 }
 .feature-tab-panel {
