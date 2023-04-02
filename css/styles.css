@@ -282,13 +282,24 @@ select:-webkit-autofill:focus {
 }
 .feature-tab-panel {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 .feature-tab-panel__img {
   object-fit: contain;
   margin-right: 30px;
 }
+.feature-tab-panel__img--manager-illustration{
+margin-right: 125px;
+}
+.feature-tab-panel__img--search-interface{
+margin-right: 118px;
+}
+.feature-tab-panel__img--share-illustration{
+  margin-right: 145px;
+}
+
+
 .feature-tab-panel__info {
   max-width: 445px;
 }
