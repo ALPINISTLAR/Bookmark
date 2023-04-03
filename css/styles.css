@@ -269,7 +269,7 @@ select:-webkit-autofill:focus {
 /* +++ tab panels +++ */
 .tabpanels {
   padding-top: 75px;
-  padding-bottom: 165px;
+  padding-bottom: 90px;
   background-image: url(../img/blue-pill-bg.svg);
   background-repeat: no-repeat;
   background-position: calc(50% - 580px) 156px;
@@ -290,16 +290,14 @@ select:-webkit-autofill:focus {
   margin-right: 30px;
 }
 .feature-tab-panel__img--manager-illustration{
-margin-right: 125px;
+  margin-right: 125px;
 }
 .feature-tab-panel__img--search-interface{
-margin-right: 118px;
+  margin-right: 118px;
 }
 .feature-tab-panel__img--share-illustration{
   margin-right: 145px;
 }
-
-
 .feature-tab-panel__info {
   max-width: 445px;
 }
@@ -389,7 +387,77 @@ margin-right: 118px;
 
 /* * * FEATURES * * */
 .features {
+
 }
 .features__section-info {
   margin-bottom: 72px;
+}
+
+/* <!-- * * * / Download the extension \ * * * --> */
+.extensions__section--info{
+  margin-bottom: 48px;
+}
+.extensions__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  border: 3px solid gold;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.extensions__item {
+  max-width: 280px;
+  width: 100%;
+}
+.extensions__item:nth-child(2){
+  margin-top: 40px;
+}
+.extensions__item:nth-child(3){
+  margin-top: 80px;
+}
+.extensions__item:not(:last-child){
+  margin-right: 35px;
+}
+.extension {
+  position: relative;
+  padding: 50px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px -5px #495DCF33;
+}
+.extension::after{
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-image: url(../img/circled-devider.svg);
+  background-position: center center;
+  content: "";
+  bottom: 96px;
+}
+.extension__img {
+  margin-bottom: 32px;
+  height: 100px;
+  object-fit: contain;
+}
+.extension__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: var(--text-color);
+  margin: 0;
+  margin-bottom: 6px;
+}
+.extension__browser--version {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--text-color-50);
+  margin: 0;
+  margin-bottom: 60px;
 }
