@@ -118,53 +118,110 @@
           <h2 class="section__title">Download the extension</h2>
           <p class="section__description">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
         </div>
-        <ul class="extensions__list">
-          <!-- * * / Item 1 \ * * -->
-          <li class="extensions__item extension">
-            <img class="extension__img" src="img/chrome.svg" alt="chrome-logo" width="102" height="100">
-            <h3 class="extension__title">Add to Chrome</h3>
-            <p class="extension__browser--version">Minimum version 62</p>
-              <a class="button button--blue button--block" href="#">Add & Install Extension</a>
-          </li>
+        <div class="extensions__inner">
+          <ul class="extensions__list">
+            <!-- * * / Item 1 \ * * -->
+            <li class="extensions__item extension">
+              <img class="extension__img" src="img/chrome.svg" alt="chrome-logo" width="102" height="100">
+              <h3 class="extension__title">Add to Chrome</h3>
+              <p class="extension__browser--version">Minimum version 62</p>
+              <a class="button button--blue button--block" target="_blank" href="#">Add & Install Extension</a>
+            </li>
 
-          <!-- * * / Item 2 \ * * -->
-          <li class="extensions__item extension">
-            <img class="extension__img" src="img/firefox.svg" alt="firefox-logo" width="105" height="100">
-            <h3 class="extension__title">Add to Firefox</h3>
-            <p class="extension__browser--version">Minimum version 55</p>
-              <a class="button button--blue button--block" href="#">Add & Install Extension</a>
-          </li>
+            <!-- * * / Item 2 \ * * -->
+            <li class="extensions__item extension">
+              <img class="extension__img" src="img/firefox.svg" alt="firefox-logo" width="105" height="100">
+              <h3 class="extension__title">Add to Firefox</h3>
+              <p class="extension__browser--version">Minimum version 55</p>
+              <a class="button button--blue button--block" target="_blank" href="#">Add & Install Extension</a>
+            </li>
 
-          <!-- * * / Item 3 \ * * -->
-          <li class="extensions__item extension">
-            <img class="extension__img" src="img/opera.svg" alt="opera-logo" width="96" height="100">
-            <h3 class="extension__title">Add to Opera</h3>
-            <p class="extension__browser--version">Minimum version 46</p>
-              <a class="button button--blue button--block" href="#">Add & Install Extension</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-    <!-- * * * / Frequently Asked Questions \ * * * -->
-    <section class="section">
-      <div class="container">
-        <div class="section__info">
-          <h2 class="section__title">Frequently Asked Questions</h2>
-          <p class="section__description">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+            <!-- * * / Item 3 \ * * -->
+            <li class="extensions__item extension">
+              <img class="extension__img" src="img/opera.svg" alt="opera-logo" width="96" height="100">
+              <h3 class="extension__title">Add to Opera</h3>
+              <p class="extension__browser--version">Minimum version 46</p>
+              <a class="button button--blue button--block" target="_blank" href="#">Add & Install Extension</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
+    <!-- * * * / Frequently Asked Questions \ * * * -->
+    <section class="faq section">
+      <div class="container">
+        <div class="section__info">
+          <h2 class="section__title">Frequently Asked Questions</h2>
+          <p class="section__description section__description--faq">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+        </div>
+        <div class="faq__inner">
+          <!-- */ ACCORDION \* -->
+          <div class="faq__accordion">
+            <div class="accordion">
+              <!-- */ ITEM 1 \* -->
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">What is Bookmark?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="13" fill="none"><path stroke="currentcolor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+                <!-- */ Item Content \* -->
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, repellat excepturi aliquid molestias facilis minima? Nobis illum optio, voluptate temporibus deleniti blanditiis eos pariatur iste aut fuga accusamus exercitationem minima id ut sequi architecto vel officiis veniam! Id, at exercitationem.</p>
+                </div>
+              </section>
+
+              <!-- */ ITEM 2 \* -->
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">How can I request a new browser?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="13" fill="none"><path stroke="currentcolor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+                <!-- */ Item Content \* -->
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+
+              <!-- */ ITEM 3 \* -->
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">Is there a mobile app?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="13" fill="none"><path stroke="currentcolor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+                <!-- */ Item Content \* -->
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Unde suscipit labore, beatae officia, harum voluptatibus voluptate totam saepe molestiae autem error voluptates enim doloremque dignissimos veniam fugit consectetur nobis veritatis natus. Aliquid porro vitae vero inventore hic aliquam, consectetur obcaecati quo eos odio fugiat dolore, eaque reiciendis, tempora modi earum! Laudantium iusto, ducimus blanditiis modi possimus dolorum quis odio officia cupiditate ut? Eaque consequatur eveniet modi totam aliquid! Culpa labore voluptate voluptatum deleniti quasi accusamus vitae fugiat eum. Neque, minus iste?</p>
+                </div>
+              </section>
+
+              <!-- */ ITEM 4 \* -->
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">What about other Chromium browsers?</h3>
+                  <button class="accordion__item-toggler" type="button" aria-label="Accordion item toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="13" fill="none"><path stroke="currentcolor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+                <!-- */ Item Content \* -->
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quisquam quos dolorum totam magni voluptas dolorem similique? Iure, voluptatum incidunt eum odio eos dolorum? Voluptatem.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+          <a class="button button--blue" href="#">More info</a>
+        </div>
+      </div>
+    </section>
+
   </main>
   <script src="js/main.js"></script>
 </body>
