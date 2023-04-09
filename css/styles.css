@@ -669,7 +669,7 @@ select:-webkit-autofill:focus {
   list-style: none;
 }
 .footer-socials__item:not(:last-child) {
-  margin-right: 24px;
+  margin-right: 40px;
 }
 .footer-social_link {
   display: flex;
