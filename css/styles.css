@@ -637,3 +637,45 @@ select:-webkit-autofill:focus {
 .subscription__error {
   display: block;
 }
+
+/* == FOOTER == */
+.site-footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--text-color);
+}
+.site-footer__container {
+  display: flex;
+  align-items: center;
+}
+.site-footer__logo {
+  margin-right: 65px;
+}
+.sitenav-white {
+  margin-right: auto;
+}
+.sitenav-link-footer {
+  color: rgb(255, 255, 255, 0.8);
+}
+.sitenav-link-footer:hover{
+  color: var(--red);
+}
+
+.footer-socials__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-socials__item:not(:last-child) {
+  margin-right: 24px;
+}
+.footer-social_link {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-social_link:hover{
+color: var(--red);
+}
